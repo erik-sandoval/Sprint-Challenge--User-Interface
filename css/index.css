@@ -210,12 +210,12 @@ footer nav a {
 /* about.html */
 
 .about-top-banner {
-    margin: 40px 0px 18px 0px; 
+    margin: 40px 0px 18px 0px;
 }
 
 .text-container-about {
-padding: 0px 20px 20px 20px;
-border-bottom: 1px dashed black;
+    padding: 0px 20px 20px 20px;
+    border-bottom: 1px dashed black;
 }
 
 .about-body {
@@ -223,7 +223,7 @@ border-bottom: 1px dashed black;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin-top: 30px; 
+    margin-top: 30px;
 }
 
 .pic-text-info {
@@ -231,27 +231,27 @@ border-bottom: 1px dashed black;
     flex-wrap: wrap;
     width: 376px;
     justify-content: left;
-    border-bottom: 1px dashed black; 
+    border-bottom: 1px dashed black;
 }
 
 .pic-text-info img {
     margin-bottom: 15px;
 }
 
-.bot-img  {
+.bot-img {
     margin-top: 60px;
 }
 
 .pic-text-info p {
-margin-bottom: 20px;
+    margin-bottom: 20px;
 }
 
-.pic-text-info button{
-border: 2px solid black;
-border-radius: 10px;
-padding: 10px 30px;
-margin-bottom: 20px;
-background: white;
+.pic-text-info button {
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px 30px;
+    margin-bottom: 20px;
+    background: white;
 }
 
 .pic-text-info button:hover {
