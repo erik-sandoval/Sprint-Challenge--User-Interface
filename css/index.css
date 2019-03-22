@@ -3,48 +3,41 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
 }
+
 body {
-	line-height: 1;
+    line-height: 1;
 }
+
 ol, ul {
-	list-style: none;
+    list-style: none;
 }
+
 blockquote, q {
-	quotes: none;
+    quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+
+blockquote:before, blockquote:after, q:before, q:after {
+    content: '';
+    content: none;
 }
+
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
 
 * {
@@ -71,6 +64,35 @@ p {
     margin: 0 auto;
 }
 
+header {
+    margin-top: 20px;
+    display: flex;
+    align-items: flex-end;
+}
+
+header nav a {
+    margin-left: 83px;
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+header nav a:first-child {
+    margin-left: 43px;
+}
+
+header nav a:last-child {
+    margin-right: 0;
+}
+
+.top-banner {
+    margin: 40px 0px 20px 0px;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -82,7 +104,7 @@ p {
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
-    padding-bottom: 20px;  
+    padding-bottom: 20px;
 }
 
 .middle-content {
@@ -101,15 +123,54 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.box1, .box2, .box3, .box4, .box5, .box6, .box7, .box8, .box9, .box10 {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.middle-content .boxes .box1 {
+    background: teal;
+}
+
+.middle-content .boxes .box2 {
+    background: gold;
+}
+
+.middle-content .boxes .box3 {
+    background: cadetblue;
+}
+
+.middle-content .boxes .box4 {
+    background: coral;
+}
+
+.middle-content .boxes .box5 {
+    background: crimson;
+}
+
+.middle-content .boxes .box6 {
+    background: forestgreen;
+}
+
+.middle-content .boxes .box7 {
+    background: darkorchid;
+}
+
+.middle-content .boxes .box8 {
+    background: hotpink;
+}
+
+.middle-content .boxes .box9 {
+    background: indigo;
+}
+
+.middle-content .boxes .box10 {
+    background: dodgerblue;
 }
 
 .bottom-content {
@@ -129,6 +190,7 @@ p {
 footer {
     width: 100%;
     background: black;
+    margin-bottom: 20px;
 }
 
 footer nav {
@@ -143,4 +205,62 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* about.html */
+
+.about-top-banner {
+    margin: 40px 0px 18px 0px;
+}
+
+.text-container-about {
+    padding: 0px 20px 20px 20px;
+    border-bottom: 1px dashed black;
+}
+
+.about-body {
+    /* padding: 30px 14px; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+
+.pic-text-info {
+    display: flex;
+    flex-wrap: wrap;
+    width: 376px;
+    justify-content: left;
+    border-bottom: 1px dashed black;
+}
+
+.pic-text-info img {
+    margin-bottom: 15px;
+}
+
+.bot-img {
+    margin-top: 60px;
+}
+
+.pic-text-info p {
+    margin-bottom: 20px;
+}
+
+.pic-text-info button {
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px 30px;
+    margin-bottom: 20px;
+    background: white;
+}
+
+.pic-text-info button:hover {
+    background: black;
+    color: white;
+    cursor: pointer;
+}
+
+.bottom-about {
+    margin: 50px 0px 20px 0px;
+    border: none;
 }
